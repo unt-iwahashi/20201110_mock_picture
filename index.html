@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"></script>
+    <script src="top.js" defer></script>
+    <title>20201108_test_picture</title>
+  </head>
+  <body>
+    <button>画像を表示</button>
+    <picture class="picture">
+      <source
+        srcset="https://dl.dropbox.com/s/pwhzx3px83adys5/pc.webp?dl=0"
+        media="(min-width:640px)"
+        type="image/webp"
+      />
+      <source
+        srcset="https://dl.dropbox.com/s/8ihmmyp03ns011l/pc.jpg?dl=0"
+        media="(min-width:640px)"
+      />
+      <source
+        srcset="https://dl.dropbox.com/s/6klkvvqbnynkle5/sp.webp?dl=0"
+        type="image/webp"
+      />
+      <img src="https://dl.dropbox.com/s/s1h1hxflrt19i3p/sp.jpg?dl=0" />
+    </picture>
+  </body>
+</html>

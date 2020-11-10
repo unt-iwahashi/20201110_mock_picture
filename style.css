@@ -1,0 +1,20 @@
+button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.picture {
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.picture.is-show {
+  opacity: 1;
+}
+
+.picture img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
